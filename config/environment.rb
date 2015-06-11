@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :password => ENV['SENDGRID_PASSWORD']
   :domain => 'heroku.com'
   :enable_startstls_auto => true
-  }
+}
