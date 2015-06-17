@@ -2,7 +2,7 @@ class ProfilesController < ApplicationController
   def new
     # form where a user can fill out their own profile.
     @user = User.find( params[:user_id] )
-    @profile = @user.build_profile #can be done because we have a nested profile in the routes.rb file
+    @profile = Profile.new
   end
   
   def create
