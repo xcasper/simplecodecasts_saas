@@ -49,8 +49,11 @@ gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0' 
 
-# User paperclip for image uploads
+# Use paperclip for image uploads
 gem 'paperclip', '4.2.1'
+
+# Use autoprefixer to automatically add browser vendor prefixes
+gem 'autoprefixer-rails', '5.2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
